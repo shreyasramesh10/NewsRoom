@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    android:layout_margin="5dp"
+    android:layout_gravity="center_horizontal"
+    android:transitionName="xyz"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="xyz"
+        android:background="@drawable/card_background"
+        >
+
+        <ImageView
+
+            android:id="@+id/newsIconCard"
+            android:layout_marginStart="5dp"
+            android:transitionName="xyz"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/nophotoavailable"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/selectionCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/optionsmenu"
+            />
+        <TextView
+            android:id="@+id/newsTitleCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary2"
+            android:layout_toEndOf="@id/newsIconCard"
+            android:textSize="15sp"
+            android:layout_toStartOf="@id/selectionCard"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/descriptionCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:lines="2"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:layout_below="@id/newsTitleCard"
+            android:layout_toEndOf="@id/newsIconCard"
+            android:layout_toStartOf="@id/selectionCard"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

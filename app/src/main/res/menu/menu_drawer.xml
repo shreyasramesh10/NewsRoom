@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single"
+    android:id="@+id/menu_top">
+    <item
+        android:id="@+id/item1"
+        android:title="Home"
+        android:icon="@drawable/headlines"
+        android:checked="false"/>
+    <item
+        android:id="@+id/item2"
+        android:title="Top Stories"
+        android:icon="@drawable/rss"
+        android:checked="false"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Most Popular"
+        android:icon="@drawable/hot"
+        android:checked="false"/>
+    <item
+        android:id="@+id/item7"
+        android:title="Notes"
+        android:transitionName="animate"
+        android:icon="@drawable/people"
+        android:checked="false"/>
+    <item
+        android:id="@+id/item4"
+        android:title="Discuss"
+        android:icon="@drawable/chaticon"
+        android:transitionName="animate"
+        android:checked="false"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Bookmarks"
+        android:icon="@drawable/bookmarksave"
+        android:checked="false"/>
+    <item
+        android:id="@+id/item9"
+        android:title="News In Images"
+        android:icon="@drawable/listbuddies"
+        android:checked="false"/>
+
+
+
+</group>
+    <group android:checkableBehavior="single" android:id="@+id/menu_bottom">
+        <item
+            android:id="@+id/item6"
+            android:title="My Profile"
+            android:icon="@drawable/aboutmeicon"
+            android:checked="false"/>
+
+        <item
+            android:id="@+id/item8"
+            android:title="Acknowledgments"
+            android:icon="@drawable/loyalty"
+            android:checked="false"/>
+    </group>
+</menu>

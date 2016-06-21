@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "news-room-1286",
+    "project_number": "828764698826",
+    "name": "News Room"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828764698826:android:e04fb8c3c2435bb5",
+        "client_id": "android:com.android.shreyas.newsroom",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.android.shreyas.newsroom",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828764698826-dbpbrf1dn1jlo3kaqi03usmdgv708f8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.shreyas.newsroom",
+            "certificate_hash": "BC5E024995710E0E7DD9739558B5A5D08F85474C"
+          }
+        },
+        {
+          "client_id": "828764698826-10vo6u3j8pdmot3vonna7u6rl6fmr8qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

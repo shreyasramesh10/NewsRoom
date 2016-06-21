@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom|withText"
+        android:titleCondensed="Refresh"/>
+    <item
+        android:id="@+id/action_metric"
+        android:title="@string/metric_units"
+        app:showAsAction="ifRoom|withText"
+        android:titleCondensed="@string/metric_units"/>
+    <item
+        android:id="@+id/action_imperial"
+        android:title="@string/imperial_units"
+        app:showAsAction="ifRoom|withText"
+        android:titleCondensed="@string/imperial_units"/>
+
+</menu>

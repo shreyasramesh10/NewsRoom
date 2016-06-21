@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+<!--    <com.android.shreyas.newsroom.splash.KenBurnsView
+        android:id="@+id/ken_burns_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/newsroomlogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.android.shreyas.newsroom.splash.RobotoTextView
+        android:id="@+id/welcome_text"
+        style="@style/TextViewAppearance.Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.0"
+        android:text="@string/app_name"
+        android:textColor="@color/global_color_primary_light"
+        android:layout_below="@+id/imagelogo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:background="@drawable/my_button_bg"
+        style="@style/TextViewAppearance"
+        android:alpha="0.0"
+        android:clickable="true"
+        android:text="Login"
+        android:layout_below="@+id/welcome_text"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skipButton"
+        android:alpha="0.0"
+
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/colorbg"
+        android:clickable="true"
+        android:text="@string/skip_login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

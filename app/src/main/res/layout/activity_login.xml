@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    >
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Login"
+        android:background="#A0FFFFFF"
+        android:id="@+id/login"
+        android:layout_marginLeft="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
